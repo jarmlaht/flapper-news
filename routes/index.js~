@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-var Post = mongoose.model('Post');
-var Comment = mongoose.model('Comment');
+var Post = mongoose.model('Posts');
+var Comment = mongoose.model('Comments');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
